@@ -1,0 +1,21 @@
+CREATE DATABASE aula;
+
+CREATE TABLE `AULA`.`usuario` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `login` VARCHAR(200) NOT NULL,
+  `senha` VARCHAR(32) NOT NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `usuario` (`id`,`login`,`senha`) VALUES (1,'maria','senha1');
+INSERT INTO `usuario` (`id`,`login`,`senha`) VALUES (2,'jose','senha2');
+
+CREATE TABLE `AULA`.`produto` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(200) NOT NULL,
+  `valor` real NOT NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `produto` (`id`,`nome`,`valor`) VALUES (1,'mouse',25.35);
+INSERT INTO `produto` (`id`,`nome`,`valor`) VALUES (2,'roteador',101.35);
+
+

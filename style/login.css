@@ -1,0 +1,104 @@
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+
+.menu {
+    display: none;
+}
+/*
+#menu{
+    max-width: 700px;
+  
+}*/
+
+#opcMenu{
+   /* position: relative;
+    left: 20%;*/
+    
+}
+.boxLogin{
+    
+    padding: 2rem 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+
+    text-align: center;
+}
+
+.boxLogin h1{
+    color: white;
+    text-transform: uppercase;
+    /*font-weight: 500;*/
+}
+.boxLogin input[type = "text"], .boxLogin input[type = "password"], .boxLogin input[type = "email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    border: .1rem solid #3498db;
+    padding: .7rem .5rem;
+    min-width: 15rem;
+    outline: none;
+    color: white;
+    border-radius: 2rem;
+    transition: 0.25s;
+}
+
+.boxLogin input[type = "text"]:focus, .boxLogin input[type = "password"]:focus, .boxLogin input[type = "email"]:focus{
+    min-width: 280px;
+    margin: 0px -20px;
+    border-color: red;
+}
+
+.boxLogin label, p{
+    color: white;
+    margin: 0px 0px 0px -120px;
+}
+.boxLogin a{
+    color:  #2ecc71;
+}
+.boxLogin input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.boxLogin input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+
+
+
+  /*------- Footer ------------*/
+footer {     
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    margin-bottom: 0;
+    width: 100%;
+}
+/*
+.footer-d{
+  padding: 1rem 2rem 0rem 2rem;
+}*/
+
+.copyright {    
+    background-color: #1a252f
+}
